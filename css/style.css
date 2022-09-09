@@ -16,14 +16,14 @@ a {
 .img-container {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 30%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .img-container img{
     border-radius: 50%;
-    width: 100px;
+    width: 200px;
 }
 
 .container {
@@ -65,7 +65,7 @@ a {
 .link-container {
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 65%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -73,6 +73,19 @@ a {
 .link-container img {
     width: 50px;
     border-radius: 50%;
+}
+
+.link-container-2 {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.link-container-2 img {
+  width: 50px;
+  border-radius: 50%;
 }
 
 .mail-container {
